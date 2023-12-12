@@ -1,0 +1,19 @@
+@use "./typography" as *;
+
+header {
+  background-image: url(../assets/images/header-banner.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 21rem;
+}
+
+.title {
+  font-family: Lugrasimo;
+  font-style: normal;
+  font-size: 3rem;
+  color: white;
+  text-align: left;
+  padding-top: 16rem;
+  padding-left: 18rem;
+}

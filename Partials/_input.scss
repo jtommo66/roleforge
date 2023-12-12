@@ -1,0 +1,53 @@
+@use "./typography" as *;
+
+.inputs {
+  background-color: silver;
+  &__form {
+    display: flex;
+    justify-content: space-around;
+    font-family: Lugrasimo;
+    align-items: center;
+    padding: 4rem 0;
+  }
+  &__name {
+    border: 2px solid black;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 5px;
+    font-family: Lugrasimo;
+  }
+
+  &__race {
+    border: 2px solid black;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 5px;
+    font-family: Lugrasimo;
+  }
+
+  &__class {
+    border: 2px solid black;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 5px;
+    font-family: Lugrasimo;
+  }
+
+  &__submit {
+    border: 2px solid black;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 5px;
+    font-family: Lugrasimo;
+  }
+
+  &__description {
+    width: 50%;
+    height: auto;
+    font-family: Lugrasimo;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+  }
+}

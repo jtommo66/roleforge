@@ -1,0 +1,9 @@
+@use "./Partials/typography";
+@use "./Partials/header";
+@use "./Partials/input";
+@use "./Partials/output";
+*::after,
+* {
+  box-sizing: border-box;
+  margin: 0;
+}

@@ -1,0 +1,169 @@
+@font-face {
+  font-family: Lugrasimo;
+  src: url(../assets/Lugrasimo/Lugrasimo-Regular.ttf);
+  font-style: normal;
+}
+header {
+  background-image: url(../assets/images/header-banner.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 21rem;
+}
+
+.title {
+  font-family: Lugrasimo;
+  font-style: normal;
+  font-size: 3rem;
+  color: white;
+  text-align: left;
+  padding-top: 16rem;
+  padding-left: 18rem;
+}
+
+.inputs {
+  background-color: silver;
+}
+.inputs__form {
+  display: flex;
+  justify-content: space-around;
+  font-family: Lugrasimo;
+  align-items: center;
+  padding: 4rem 0;
+}
+.inputs__name {
+  border: 2px solid black;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 5px;
+  font-family: Lugrasimo;
+}
+.inputs__race {
+  border: 2px solid black;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 5px;
+  font-family: Lugrasimo;
+}
+.inputs__class {
+  border: 2px solid black;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 5px;
+  font-family: Lugrasimo;
+}
+.inputs__submit {
+  border: 2px solid black;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 5px;
+  font-family: Lugrasimo;
+}
+.inputs__description {
+  width: 50%;
+  height: auto;
+  font-family: Lugrasimo;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.output {
+  padding: 5rem 0;
+  display: flex;
+  background-color: silver;
+}
+.output__stat-hp-ac-wrap {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.output__stats-wrap {
+  height: 10rem;
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.output__stats-box {
+  border: 1px solid black;
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  background-color: gold;
+  border-radius: 5px;
+}
+.output__stats-number {
+  font-family: Lugrasimo;
+  font-size: 3rem;
+}
+.output__stats-con-mod {
+  font-family: Lugrasimo;
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1rem;
+}
+.output__stats-title {
+  font-family: Lugrasimo;
+}
+.output__hp-ac-wrap {
+  height: 5rem;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.output__hp {
+  height: 4rem;
+  width: 4rem;
+  font-family: Lugrasimo;
+}
+.output__hp-title {
+  font-family: Lugrasimo;
+}
+.output__hp-wrap {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 4rem;
+  background-color: gold;
+  text-align: center;
+  border-radius: 5px;
+}
+.output__ac-wrap {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 4rem;
+  background-color: gold;
+  text-align: center;
+  border-radius: 5px;
+}
+.output__ac-title {
+  font-family: Lugrasimo;
+  text-align: center;
+}
+.output__ac {
+  height: 4rem;
+  width: 4rem;
+  font-family: Lugrasimo;
+}
+.output__image {
+  height: auto;
+  width: 10%;
+  margin-right: 4rem;
+  background-image: url(../assets/images/dragon_born.png);
+  background-size: cover;
+  padding-right: 2rem;
+}
+
+*::after,
+* {
+  box-sizing: border-box;
+  margin: 0;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RoleForge</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./roleforge-api-call.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">RoleForge</h1>
+    </header>
+    <section class="inputs">
+      <form class="inputs__form">
+        <input
+          class="inputs__name"
+          type="text"
+          name="name"
+          placeholder="Name"
+        />
+        <select class="inputs__race" name="race" id="race">
+          <option class="inputs__race-option" value="race">Select Race</option>
+        </select>
+        <select class="inputs__class" name="class" id="class">
+          <option class="inputs__class-option" value="class">
+            Select Class
+          </option>
+        </select>
+        <button class="inputs__submit" type="submit">Forge Character</button>
+      </form>
+      <article class="inputs__description"></article>
+    </section>
+    <section class="output">
+      <div class="output__stat-hp-ac-wrap">
+        <div class="output__stats-wrap">
+          <article class="output__stats-box">
+            <h3 class="output__stats-title">Strength</h3>
+            <p class="output__stats-number output__stats-number--strength"></p>
+          </article>
+          <article class="output__stats-box">
+            <h3 class="output__stats-title">Dexterity</h3>
+            <p class="output__stats-number output__stats-number--dexterity"></p>
+          </article>
+          <article class="output__stats-box">
+            <h3 class="output__stats-title">Constitution</h3>
+            <p
+              class="output__stats-number output__stats-number--constitution"
+            ></p>
+            <p class="output__stats-con-mod"></p>
+          </article>
+          <article class="output__stats-box">
+            <h3 class="output__stats-title">Intelligence</h3>
+            <p
+              class="output__stats-number output__stats-number--intelligence"
+            ></p>
+          </article>
+          <article class="output__stats-box">
+            <h3 class="output__stats-title">Wisdom</h3>
+            <p class="output__stats-number output__stats-number--wisdom"></p>
+          </article>
+          <article class="output__stats-box">
+            <h3 class="output__stats-title">Charisma</h3>
+            <p class="output__stats-number output__stats-number--charisma"></p>
+          </article>
+        </div>
+        <div class="output__hp-ac-wrap">
+          <div class="output__hp-wrap">
+            <h3 class="output__hp-title">HP</h3>
+            <p class="output__hp"></p>
+          </div>
+          <div class="output__ac-wrap">
+            <h3 class="output__ac-title">AC</h3>
+            <p class="output__ac"></p>
+          </div>
+        </div>
+      </div>
+      <div class="output__image"></div>
+    </section>
+  </body>
+</html>
